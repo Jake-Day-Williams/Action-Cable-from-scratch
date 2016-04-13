@@ -39,8 +39,8 @@ Rails.application.configure do
   # config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect' # for NGINX
 
   # Action Cable endpoint configuration
-   config.action_cable.url = 'wss://devpoint-week-9-jakeday.c9users.io'
-   config.action_cable.allowed_request_origins = [ 'https://devpoint-week-9-jakeday.c9users.io', /http:\/\/devpoint-week-9-jakeday.c9users.*/ ]
+   config.action_cable.url = 'wss://action-packed-cable.herokuapp.com/cable'
+   config.action_cable.allowed_request_origins = [ 'https://action-packed-cable.herokuapp.com', /http:\/\/infinite-wave-64860.herokuapp.*/ ]
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
   # config.force_ssl = true
