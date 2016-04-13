@@ -40,7 +40,7 @@ Rails.application.configure do
 
   # Action Cable endpoint configuration
    config.action_cable.url = 'wss://action-packed-cable.herokuapp.com/cable'
-   config.action_cable.allowed_request_origins = [ 'https://action-packed-cable.herokuapp.com', /http:\/\/infinite-wave-64860.herokuapp.*/ ]
+   config.action_cable.allowed_request_origins = [ 'https://action-packed-cable.herokuapp.com', /http:\/\/https://action-packed-cable.herokuapp.*/ ]
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
   # config.force_ssl = true
